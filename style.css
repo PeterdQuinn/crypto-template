@@ -1,0 +1,399 @@
+<!----------------- > .portfolio {
+  background-color: #f5f5f5;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio h2 {
+  color: #222b45;
+}
+
+.portfolio p {
+  font-size: 16px;
+
+  margin-bottom: 10px;
+
+  color: #666;
+}
+
+.portfolio button {
+  background-color: #222b45;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+<!----------------- > Exchange .exchange {
+  background-color: #f5f5f5;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exchange h2 {
+  color: #222b45;
+}
+
+.exchange form {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.exchange-form {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+.exchange-form .form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.exchange-form .form-group label {
+  font-size: 14px;
+
+  margin-bottom: 5px;
+
+  color: #666;
+}
+
+.exchange-form .form-group input,
+.exchange-form .form-group select {
+  width: 100%;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: none;
+
+  font-size: 16px;
+
+  margin-bottom: 10px;
+}
+
+.exchange button {
+  background-color: #222b45;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+<!------------------------------ > wallet .wallet-list {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.wallet-list li {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 10px;
+}
+
+.wallet-coin img {
+  height: 30px;
+
+  margin-right: 10px;
+}
+
+.wallet-coin h3 {
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: #222b45;
+}
+
+.wallet-balance p {
+  font-size: 14px;
+
+  margin-bottom: 5px;
+
+  color: #666;
+}
+
+.wallet-balance h4 {
+  font-size: 24px;
+
+  font-weight: bold;
+
+  color: #222b45;
+
+  margin-bottom: 0;
+}
+
+.wallet-list button {
+  background-color: #d8e1ff;
+
+  color: #222b45;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+<!-------------------------- > .logo {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #222b45;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+<!--------------------------- > QR SCANNER body {
+  background-color: #f2f2f2;
+
+  font-family: sans-serif;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+
+label {
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+
+  border: none;
+
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.qr-code-container {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  border: 1px solid #ccc;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  max-width: 300px;
+
+  margin: 0 auto;
+}
+
+.qr-code {
+  max-width: 100%;
+
+  box-shadow: none;
+}
+
+<!-------------------- > --Portfolio------ .portfolio {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+
+  margin-bottom: 30px;
+}
+
+.portfolio ul {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.portfolio li {
+  margin: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  width: 300px;
+
+  transition: all 0.3s ease;
+}
+
+.portfolio li:hover {
+  transform: scale(1.05);
+}
+
+.portfolio .asset {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.portfolio .asset img {
+  max-width: 100%;
+
+  height: auto;
+
+  margin-bottom: 10px;
+}
+
+.portfolio .asset-info {
+  padding: 10px;
+
+  text-align: left;
+}
+
+.portfolio .asset-info h3 {
+  font-size: 24px;
+
+  margin-bottom: 10px;
+}
+
+.portfolio .asset-info p {
+  margin: 5px 0;
+
+  font-size: 14px;
+}
